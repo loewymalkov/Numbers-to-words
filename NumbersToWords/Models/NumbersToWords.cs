@@ -5,9 +5,9 @@ namespace NumberReturner
 {
   public class Number 
   {
-    public static Dictionary<char, string> ones = new Dictionary<char, string>{{'1',"one"},{'2',"two"},{'3',"three"}};
+    public static Dictionary<char, string> ones = new Dictionary<char, string>{{'1',"one"},{'2',"two"},{'3',"three"},{'4',"four"},{'5',"five"},{'6',"six"},{'7',"seven"}, {'8',"eight"},{'9',"nine"} };
     // Dictionary<char, string> elevenToNineteen = new Dictionary<string, string>();
-    public static Dictionary<char, string> tens = new Dictionary<char, string>{{'2',"twenty"},{'3',"thirty"},{'4',"fourty"}};
+    public static Dictionary<char, string> tens = new Dictionary<char, string>{{'2',"twenty"},{'3',"thirty"},{'4',"fourty"},{'5',"fifty"},{'6',"sixty"},{'7',"seventy"}, {'8',"eighty"},{'9',"ninety"}};
    
   public static string numToWordTens(int numberFromUser)
   {
