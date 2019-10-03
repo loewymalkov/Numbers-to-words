@@ -13,17 +13,24 @@ namespace NumberReturner
   {
     // if (numberFromUser.ToString().Length < 2 )
     // {
+      // ***call this function 
+      /// ***make function 
     //    string singleDigit = ones[(char)numberFromUser];
     //    return singleDigit;
     // }
     // else if (numberFromUser.ToString.Length() < 3 && numberFromUser < 20)
     // {
+      // call this function 
+      // make function for all these 
     //   string twoDigits = elevenToNineteen[numberFromUser];
     //   return twoDigits;
     // }
     // 
      if (numberFromUser.ToString().Length < 3 && numberFromUser > 20)
     {
+      // call this function 
+
+      // public static string
       char [] characters = numberFromUser.ToString().ToCharArray();
       string addto = "";
       foreach(char singles in characters)
